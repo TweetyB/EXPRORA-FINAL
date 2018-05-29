@@ -1,0 +1,129 @@
+
+body {
+    position: relative; 
+    height: 100%;
+
+    
+}
+.affix {
+    top:0;
+   
+    z-index: 9999 !important;
+   
+  
+    
+}
+
+
+.affix ~ .container-fluid {
+   position: relative;
+   top: 0px;
+
+
+  
+
+   
+    
+}
+
+.responsive {
+    top:0;
+    max-width:100%;
+    min-width: 50%;
+    height:auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test {
+  
+   
+    max-height: calc(100vh - 100px);
+    overflow-y: scroll;
+   
+}
+
+  
+  .ant-carousel .slick-slide {
+    text-align: center;
+   height: 1000px;
+    line-height: 160px;
+    background: #976c6c;
+    overflow: hidden;
+    margin: auto;
+    background-size:size cover;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+ 
+  }
+
+  
+
+#section1 { background-image: url("../photo/home-1.png");background-size:size cover; background-position:center;height: 60vw;color: #fff;}
+#section2 { background-image: url("../photo/2.png");background-size:cover; background-position:center;padding-top:0px;height:1200px;color: #fff;}
+#section3  { background-image: url("../photo/3.png");background-size:cover; background-position:center;padding-top:0px;height:1200px;color: #fff;}
+/* #section4 { background-image: url("../photo/4.png");background-size:cover;background-position:center;padding-top:0px;height:1200px;color: #fff; } */
+#section5 { background-image: url("../photo/5.png");background-size:cover;background-position:center; height: 50vw;color: #fff;}
+#section6 { background-image: url("../photo/6.png");background-size:cover;background-position:center;height:50vw;color: #fff;}
+#section7 { background-image: url("../photo/7.png");background-size:cover;background-position:center; height: 50vw; color: #fff;}
+#section8 { background-image: url("../photo/8.png");background-size:cover;background-position:center; height: 50vw; color: #fff;}
+#section9 { background-image: url("../photo/9.png");background-size:cover;background-position:center; height: 50vw; color: #fff;}
+#section10 { background-image: url("../photo/10.png");background-size:cover;background-position:center; height: 50vw; color: #fff;}
+#section11 { background-image: url("../photo/11.png");background-size:cover;background-position:center; height: 50vw; color: #fff;}
+#section12 { background-image: url("../photo/12.png");background-size:cover;background-position:center; height: 50vw; color: #fff;}
+#section13 { background-image: url("../photo/13.png");background-size:cover;background-position:center; height: 50vw; color: #fff;}
+#section14 { background-image: url("../photo/14.png");background-size:cover;background-position:center; height: 50vw; color: #fff;}
+#section15 { background-image: url("../photo/15.png");background-size:cover;background-position:center; height: 50vw; color: #fff;}
+
+
+#place1 { background-image: url("../place/popup1.png");margin-top:-1%;background-size:cover;background-position:center;padding-top:0px;height:170vw;color: #fff; }
+#place2 { background-image: url("../place/popup2.png");background-size:cover;background-position:center;padding-top:0px;height:130vw;color: #fff; }
+#place3 { background-image: url("../place/popup3.png");background-size:cover;background-position:center;padding-top:0px;height:170vw;color: #fff; }
+#place4 { background-image: url("../place/popup4.png");background-size:cover;background-position:center;padding-top:0px;height:150vw;color: #fff; }
+#place5 { background-image: url("../place/popup5.png");background-size:cover;background-position:center;padding-top:0px;height:150vw;color: #fff; }
+#place6 { background-image: url("../place/popup6.png");background-size:cover;background-position:center;padding-top:0px;height:170vw;color: #fff; }
+#place7 { background-image: url("../place/popup7.png");background-size:cover;background-position:center;padding-top:0px;height:170vw;color: #fff; }
+#place8 { background-image: url("../place/popup8.png");background-size:cover;background-position:center;padding-top:0px;height:150vw;color: #fff; }
+#place9 { background-image: url("../place/popup9.png");background-size:cover;background-position:center;padding-top:0px;height:150vw;color: #fff; }
+#place10 { background-image: url("../place/popup10.png");background-size:cover;background-position:center;padding-top:0px;height:180vw;color: #fff; }
+
+
+#button1{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+position: relative;top:83%;left: 87%; background-color: #000000;z-index: 1;border-radius: 40px;}
+#button2{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+    position: relative;top:75%;left: 87.5%; background-color: #000000;z-index: 1;border-radius: 40px;}
+#button3{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+    position: relative;top:90.5%;left: 37.3%; background-color: #000000;z-index: 1;border-radius: 40px;}
+#button4{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+    position: relative;top:93%;left: 38%; background-color: #000000;z-index: 1;border-radius: 40px;}
+#button5{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+    position: relative;top:88.5%;left: 82.8%; background-color: #000000;z-index: 1;border-radius: 40px;}
+#button6{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+    position: relative;top:46.5%;left: 30.3%; background-color: #000000;z-index: 1;border-radius: 40px;}
+#button7{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+    position: relative;top:89.5%;left: 85.5%; background-color: #000000;z-index: 1;border-radius: 40px;}
+#button8{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+    position: relative;top:84%;left: 81.5%; background-color: #000000;z-index: 1;border-radius: 40px;}
+#button9{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+    position: relative;top:77%;left: 83.2%; background-color: #000000;z-index: 1;border-radius: 40px;}
+#button10{border-bottom: 5% solid gray;font-size: 0.8vw;text-align: center; width: 9%; height: 4%;display: block; 
+    position: relative;top:70%;left: 34%; background-color: #000000;z-index: 1;border-radius: 40px;}
+
+  
+   
+    #thingg1 { background-image: url("../thingtodo/g1.png");background-size:size cover; background-position:center;height: 30vw;color: #fff;}
+    #thingg2 { background-image: url("../thingtodo/g2.png");background-size:size cover; background-position:center;height: 30vw;color: #fff;}
+    #thingg3 { background-image: url("../thingtodo/g3.png");background-size:size cover; background-position:center;height: 30vw;color: #fff;}
+    #thingg4 { background-image: url("../thingtodo/g4.png");background-size:size cover; background-position:center;height: 60vw;color: #fff;}
+    #thingg5 { background-image: url("../thingtodo/g5.png");background-size:size cover; background-position:center;height: 60vw;color: #fff;}
+    #thing0 { background-image: url("../thingtodo/0.png");background-size:size cover; background-position:center;height: 50vw;color: #fff;}
+    #thing1 { background-image: url("../thingtodo/1.png");background-size:size cover; background-position:center;height: 60vw;color: #fff;}
+    #thing2 { background-image: url("../thingtodo/2.png");background-size:size cover; background-position:center;height: 60vw;color: #fff;}
+    #thing3 { background-image: url("../thingtodo/3.png");background-size:size cover; background-position:center;height: 60vw;color: #fff;}
+    #thing4 { background-image: url("../thingtodo/4.png");background-size:size cover; background-position:center;height: 60vw;color: #fff;}
+    #thing5 { background-image: url("../thingtodo/5.png");background-size:size cover; background-position:center;height: 60vw;color: #fff;}
+
+    #time { background-image: url("../thingtodo/time\ to\ go.png");background-size:size cover; background-position:center;height: 60vw;color: #fff;}
